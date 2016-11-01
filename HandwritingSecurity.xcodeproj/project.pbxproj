@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256E2C66E57B9182BA650E7E /* Pods_HandwritingSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAB8F4F0AEEA2C850C360C1 /* Pods_HandwritingSecurity.framework */; };
 		8416495C1D6687A6002065C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416495B1D6687A6002065C1 /* AppDelegate.swift */; };
 		8416495E1D6687A6002065C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416495D1D6687A6002065C1 /* ViewController.swift */; };
 		841649611D6687A6002065C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8416495F1D6687A6002065C1 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		841649661D6687A6002065C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841649641D6687A6002065C1 /* LaunchScreen.storyboard */; };
 		841649711D6687A6002065C1 /* HandwritingSecurityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841649701D6687A6002065C1 /* HandwritingSecurityTests.swift */; };
 		8416497C1D6687A6002065C1 /* HandwritingSecurityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416497B1D6687A6002065C1 /* HandwritingSecurityUITests.swift */; };
+		8416498A1D6687C8002065C1 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841649891D6687C8002065C1 /* DrawView.swift */; };
+		8416498C1D668810002065C1 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416498B1D668810002065C1 /* Line.swift */; };
+		844DBD511D6D9D330030C30B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 844DBD501D6D9D330030C30B /* Podfile */; };
+		844DBD531D6DE41F0030C30B /* SignatureUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DBD521D6DE41F0030C30B /* SignatureUploadViewController.swift */; };
+		846A09AE1D688E5F00D982CF /* CustomObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 846A09AD1D688E5F00D982CF /* CustomObject.mm */; };
+		84D80AAC1D689B420002D010 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D80AAB1D689B420002D010 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DAB8F4F0AEEA2C850C360C1 /* Pods_HandwritingSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandwritingSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AA1C86CA00ECD26A99725E /* Pods-HandwritingSecurity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwritingSecurity.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandwritingSecurity/Pods-HandwritingSecurity.release.xcconfig"; sourceTree = "<group>"; };
+		5278A5F5DEC094E58BD6164F /* Pods-HandwritingSecurity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwritingSecurity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandwritingSecurity/Pods-HandwritingSecurity.debug.xcconfig"; sourceTree = "<group>"; };
 		841649581D6687A6002065C1 /* HandwritingSecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandwritingSecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8416495B1D6687A6002065C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8416495D1D6687A6002065C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		841649771D6687A6002065C1 /* HandwritingSecurityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandwritingSecurityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8416497B1D6687A6002065C1 /* HandwritingSecurityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandwritingSecurityUITests.swift; sourceTree = "<group>"; };
 		8416497D1D6687A6002065C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841649891D6687C8002065C1 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		8416498B1D668810002065C1 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		844DBD501D6D9D330030C30B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		844DBD521D6DE41F0030C30B /* SignatureUploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureUploadViewController.swift; sourceTree = "<group>"; };
+		846A09AC1D688E5E00D982CF /* HandwritingSecurity-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HandwritingSecurity-Bridging-Header.h"; sourceTree = "<group>"; };
+		846A09AD1D688E5F00D982CF /* CustomObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CustomObject.mm; sourceTree = "<group>"; };
+		846A09AF1D688E7C00D982CF /* CustomObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomObject.h; sourceTree = "<group>"; };
+		84D80AAB1D689B420002D010 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D80AAC1D689B420002D010 /* opencv2.framework in Frameworks */,
+				256E2C66E57B9182BA650E7E /* Pods_HandwritingSecurity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +94,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77FDEB89AA3CAEDBDB9C8460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DAB8F4F0AEEA2C850C360C1 /* Pods_HandwritingSecurity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8416494F1D6687A6002065C1 = {
 			isa = PBXGroup;
 			children = (
+				844DBD501D6D9D330030C30B /* Podfile */,
+				84D80AAB1D689B420002D010 /* opencv2.framework */,
 				8416495A1D6687A6002065C1 /* HandwritingSecurity */,
 				8416496F1D6687A6002065C1 /* HandwritingSecurityTests */,
 				8416497A1D6687A6002065C1 /* HandwritingSecurityUITests */,
 				841649591D6687A6002065C1 /* Products */,
+				D01CCBCEF957C9F595D3E9CF /* Pods */,
+				77FDEB89AA3CAEDBDB9C8460 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +135,12 @@
 				841649621D6687A6002065C1 /* Assets.xcassets */,
 				841649641D6687A6002065C1 /* LaunchScreen.storyboard */,
 				841649671D6687A6002065C1 /* Info.plist */,
+				841649891D6687C8002065C1 /* DrawView.swift */,
+				8416498B1D668810002065C1 /* Line.swift */,
+				846A09AD1D688E5F00D982CF /* CustomObject.mm */,
+				846A09AC1D688E5E00D982CF /* HandwritingSecurity-Bridging-Header.h */,
+				846A09AF1D688E7C00D982CF /* CustomObject.h */,
+				844DBD521D6DE41F0030C30B /* SignatureUploadViewController.swift */,
 			);
 			path = HandwritingSecurity;
 			sourceTree = "<group>";
@@ -125,6 +163,15 @@
 			path = HandwritingSecurityUITests;
 			sourceTree = "<group>";
 		};
+		D01CCBCEF957C9F595D3E9CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5278A5F5DEC094E58BD6164F /* Pods-HandwritingSecurity.debug.xcconfig */,
+				27AA1C86CA00ECD26A99725E /* Pods-HandwritingSecurity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841649801D6687A6002065C1 /* Build configuration list for PBXNativeTarget "HandwritingSecurity" */;
 			buildPhases = (
+				9D8421C3574EF02420D1793E /* [CP] Check Pods Manifest.lock */,
 				841649541D6687A6002065C1 /* Sources */,
 				841649551D6687A6002065C1 /* Frameworks */,
 				841649561D6687A6002065C1 /* Resources */,
+				AC6EF0A1F3B4D0AF8E6C8E44 /* [CP] Embed Pods Frameworks */,
+				B39D44AAD06C1AD606263A91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,13 +243,16 @@
 				TargetAttributes = {
 					841649571D6687A6002065C1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					8416496B1D6687A6002065C1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 841649571D6687A6002065C1;
 					};
 					841649761D6687A6002065C1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 841649571D6687A6002065C1;
 					};
 				};
@@ -231,6 +284,7 @@
 			files = (
 				841649661D6687A6002065C1 /* LaunchScreen.storyboard in Resources */,
 				841649631D6687A6002065C1 /* Assets.xcassets in Resources */,
+				844DBD511D6D9D330030C30B /* Podfile in Resources */,
 				841649611D6687A6002065C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +305,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D8421C3574EF02420D1793E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6EF0A1F3B4D0AF8E6C8E44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandwritingSecurity/Pods-HandwritingSecurity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B39D44AAD06C1AD606263A91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandwritingSecurity/Pods-HandwritingSecurity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		841649541D6687A6002065C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8416495E1D6687A6002065C1 /* ViewController.swift in Sources */,
+				8416498C1D668810002065C1 /* Line.swift in Sources */,
 				8416495C1D6687A6002065C1 /* AppDelegate.swift in Sources */,
+				846A09AE1D688E5F00D982CF /* CustomObject.mm in Sources */,
+				844DBD531D6DE41F0030C30B /* SignatureUploadViewController.swift in Sources */,
+				8416498A1D6687C8002065C1 /* DrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +503,42 @@
 		};
 		841649811D6687A6002065C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5278A5F5DEC094E58BD6164F /* Pods-HandwritingSecurity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HandwritingSecurity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.HandwritingSecurity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HandwritingSecurity/HandwritingSecurity-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		841649821D6687A6002065C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27AA1C86CA00ECD26A99725E /* Pods-HandwritingSecurity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HandwritingSecurity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.HandwritingSecurity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HandwritingSecurity/HandwritingSecurity-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -425,6 +550,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.HandwritingSecurityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandwritingSecurity.app/HandwritingSecurity";
 			};
 			name = Debug;
@@ -437,6 +563,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.HandwritingSecurityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandwritingSecurity.app/HandwritingSecurity";
 			};
 			name = Release;
@@ -448,6 +575,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.HandwritingSecurityUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = HandwritingSecurity;
 			};
 			name = Debug;
@@ -459,6 +587,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.HandwritingSecurityUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = HandwritingSecurity;
 			};
 			name = Release;
@@ -482,6 +611,7 @@
 				841649821D6687A6002065C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		841649831D6687A6002065C1 /* Build configuration list for PBXNativeTarget "HandwritingSecurityTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +620,7 @@
 				841649851D6687A6002065C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		841649861D6687A6002065C1 /* Build configuration list for PBXNativeTarget "HandwritingSecurityUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +629,7 @@
 				841649881D6687A6002065C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
